@@ -1,9 +1,877 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "events": [
+    {
+      "id": 1,
+      "name": "CodeCamp 2023",
+      "detail": "Join us for a weekend of coding challenges, workshops, and networking with fellow developers. Explore the latest technologies and enhance your coding skills.",
+      "date": "2023-12-20T19:00",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702960242/codergather/dk2ygbf3fhzp7affa33a.jpg",
+      "createdAt": "2023-12-19T12:24:19.427Z",
+      "capacity": {
+        "booked": 2,
+        "total": 50,
+        "isFull": false
+      },
+      "price": 500000,
+      "category": "Bootcamp",
+      "duration": 3
+    },
+    {
+      "id": 2,
+      "name": "DevFest XYZ",
+      "detail": "DevFest XYZ is a celebration of developers and technology enthusiasts. Dive into hands-on sessions, learn from industry experts, and connect with like-minded individuals.",
+      "date": "2023-12-28T13:03",
+      "createdAt": "2023-12-19T12:17:00.518Z",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "capacity": {
+        "booked": 1,
+        "total": 50,
+        "isFull": false
+      },
+      "price": 560000,
+      "category": "Conference",
+      "duration": 3
+    },
+    {
+      "id": 3,
+      "name": "Hackathon Expo",
+      "detail": "Calling all hackers and innovators! Participate in our 24-hour hackathon and showcase your projects at the Hackathon Expo. Exciting prizes and opportunities await.",
+      "date": "2023-12-26T20:00",
+      "createdAt": "2023-12-19T12:19:45.905Z",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "capacity": {
+        "booked": 1,
+        "total": 50,
+        "isFull": false
+      },
+      "price": 840000,
+      "category": "Hackathon",
+      "duration": 4
+    },
+    {
+      "id": 4,
+      "name": "Web Summit 2023",
+      "detail": "Web Summit is the largest technology conference in the world. Join thousands of developers, entrepreneurs, and industry leaders for insightful talks, workshops, and networking.",
+      "date": "2023-12-24T20:00",
+      "createdAt": "2023-12-19T12:23:42.780Z",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "capacity": {
+        "booked": 1,
+        "total": 50,
+        "isFull": false
+      },
+      "price": 1400000,
+      "category": "Conference",
+      "duration": 1
+    },
+    {
+      "id": 5,
+      "name": "AI Bootcamp 2023",
+      "detail": "Explore the latest advancements in artificial intelligence at AI Bootcamp 2023. Engage in hands-on workshops, attend expert-led sessions, and discover the future of AI.",
+      "date": "2023-12-24T18:00",
+      "createdAt": "2023-12-19T12:20:16.755Z",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "capacity": {
+        "booked": 0,
+        "total": 50,
+        "isFull": false
+      },
+      "price": 1050000,
+      "category": "Bootcamp",
+      "duration": 1
+    },
+    {
+      "id": 6,
+      "name": "Mobile App Summit",
+      "detail": "Join us for the Mobile App Summit and dive into the world of mobile development. Learn about the latest trends, tools, and best practices in creating successful mobile applications.",
+      "createdAt": "2023-12-19T12:19:21.826Z",
+      "date": "2023-12-25T09:00",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "capacity": {
+        "booked": 0,
+        "total": 50,
+        "isFull": false
+      },
+      "price": 770000,
+      "category": "Conference",
+      "duration": 2
+    },
+    {
+      "id": 7,
+      "name": "Blockchain Hackathon",
+      "detail": "Calling all blockchain enthusiasts! Participate in our Blockchain Hackathon and showcase your decentralized solutions. Network with industry experts and win exciting prizes.",
+      "createdAt": "2023-12-19T12:22:52.155Z",
+      "date": "2023-12-28T12:00",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "capacity": {
+        "booked": 0,
+        "total": 50,
+        "isFull": false
+      },
+      "price": 910000,
+      "category": "CP",
+      "duration": 1
+    },
+    {
+      "id": 8,
+      "name": "DevOps Conference",
+      "detail": "Learn about the latest trends in DevOps at our annual DevOps Conference. Gain insights from experienced practitioners, participate in hands-on labs, and optimize your development workflow.",
+      "createdAt": "2023-12-19T12:17:41.898Z",
+      "date": "2023-12-28T12:00",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "capacity": {
+        "booked": 0,
+        "total": 50,
+        "isFull": false
+      },
+      "price": 1200000,
+      "category": "Conference",
+      "duration": 4
+    },
+    {
+      "id": 9,
+      "name": "Game Developers Expo",
+      "detail": "Immerse yourself in the world of game development at the Game Developers Expo. Discover new tools, techniques, and industry trends. Connect with fellow game developers and designers.",
+      "createdAt": "2023-12-19T12:18:53.328Z",
+      "date": "2023-12-28T17:00",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "capacity": {
+        "booked": 0,
+        "total": 50,
+        "isFull": false
+      },
+      "price": 105000,
+      "category": "Conference",
+      "duration": 4
+    },
+    {
+      "id": 10,
+      "name": "Frontend  Bootcamp",
+      "detail": "Stay ahead in frontend development! Join us at the Frontend Frameworks Summit to explore the latest frameworks, libraries, and best practices for building modern web applications.",
+      "createdAt": "2023-12-19T12:22:08.326Z",
+      "date": "2023-12-29T08:00",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "capacity": {
+        "booked": 1,
+        "total": 50,
+        "isFull": false
+      },
+      "price": 900000,
+      "category": "Bootcamp",
+      "duration": 30
+    },
+    {
+      "id": 11,
+      "name": "Cloud Computing Forum",
+      "detail": "Unlock the power of the cloud at the Cloud Computing Forum. Learn from cloud experts, explore cutting-edge technologies, and discover how cloud computing is transforming industries.",
+      "createdAt": "2023-12-19T12:21:02.769Z",
+      "date": "2023-12-26T15:30",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "capacity": {
+        "booked": 0,
+        "total": 50,
+        "isFull": false
+      },
+      "price": 1800000,
+      "category": "Conference",
+      "duration": 3
+    },
+    {
+      "id": 12,
+      "name": "Python Developers Retreat",
+      "detail": "Escape to the Python Developers Retreat for an immersive experience in Python programming. Connect with Python enthusiasts, engage in coding challenges, and enhance your Python skills.",
+      "createdAt": "2023-12-10T09:03:05.275Z",
+      "date": "2023-12-28T13:03",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "capacity": {
+        "total": 50,
+        "booked": 1,
+        "isFull": false
+      },
+      "category": "Conference",
+      "price": 700000
+    },
+    {
+      "id": 13,
+      "name": "UX/UI Design Bootcamp",
+      "detail": "Elevate your design skills at the UX/UI Design Bootcamp. Dive into user experience and user interface design principles, participate in hands-on projects, and create delightful user interfaces.",
+      "createdAt": "2023-12-19T12:20:54.292Z",
+      "date": "2023-12-25T01:00",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "capacity": {
+        "booked": 0,
+        "total": 50,
+        "isFull": false
+      },
+      "price": 77000,
+      "category": "Bootcamp",
+      "duration": 1
+    },
+    {
+      "id": 14,
+      "name": "Tech Innovation Hack",
+      "detail": "Experience the future at the Tech Innovation Summit. Explore groundbreaking technologies, hear from industry visionaries, and gain insights into the next wave of technological innovation.",
+      "createdAt": "2023-12-19T12:21:29.742Z",
+      "date": "2023-12-20T02:00",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "capacity": {
+        "booked": 0,
+        "total": 50,
+        "isFull": false
+      },
+      "price": 1050000,
+      "category": "CP",
+      "duration": 3
+    },
+    {
+      "capacity": {
+        "booked": 1,
+        "total": 50,
+        "isFull": false
+      },
+      "category": "Hackathon",
+      "date": "2023-12-20T02:00",
+      "createdAt": "2023-12-18T10:05:00.281Z",
+      "detail": "Google Hackaton for Kids",
+      "duration": 3,
+      "name": "Google Hackaton",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702893894/codergather/i8w549yyo69pz5a0df8c.jpg",
+      "price": 50000,
+      "id": 15
+    },
+    {
+      "capacity": {
+        "booked": 1,
+        "total": 50,
+        "isFull": false
+      },
+      "category": "Hackathon",
+      "date": "2023-12-14T02:00:00",
+      "createdAt": "2023-12-18T10:14:07.865Z",
+      "detail": "Shopee Game week for student",
+      "duration": 3,
+      "name": "Shopee Game Week",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702894402/codergather/jvlsydvhnw5yss4zsehk.jpg",
+      "price": 100000,
+      "id": 16
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "merchs": [
+    {
+      "id": 1,
+      "eventId": 1,
+      "name": "CodeCamp Watch",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702962628/codergather/c2dexlzenr23cwhtw4us.jpg",
+      "desc": "Commemorate your experience at CodeCamp with our exclusive event-themed Watch. High-quality fabric and stylish design.",
+      "price": 150000,
+      "quantity": 20,
+      "stock": 20
+    },
+    {
+      "id": 2,
+      "eventId": 1,
+      "name": "CodeCamp Sticker Pack",
+      "picture": "https://example.com/codecampstickers.jpg",
+      "desc": "Decorate your laptop or workspace with our CodeCamp sticker pack. Unique designs representing coding excellence.",
+      "stock": 20,
+      "price": 20000
+    },
+    {
+      "id": 3,
+      "eventId": 1,
+      "name": "CodeCamp Mug",
+      "picture": "https://example.com/codecampmug.jpg",
+      "desc": "Start your coding mornings right with the CodeCamp mug. A perfect companion for your favorite coding beverage.",
+      "stock": 20,
+      "price": 50000
+    },
+    {
+      "id": 4,
+      "eventId": 2,
+      "name": "DevFest XYZ Hoodie",
+      "picture": "https://example.com/devfestxyzhoodie.jpg",
+      "desc": "Stay warm and stylish with the DevFest XYZ Hoodie. Perfect for chilly coding nights and tech gatherings.",
+      "stock": 20,
+      "price": 200000
+    },
+    {
+      "id": 5,
+      "eventId": 2,
+      "name": "DevFest XYZ Notebook",
+      "picture": "https://example.com/devfestxyznotebook.jpg",
+      "desc": "Take notes in style with the DevFest XYZ Notebook. Quality paper and unique design for your tech ideas.",
+      "stock": 20,
+      "price": 30000
+    },
+    {
+      "id": 6,
+      "eventId": 2,
+      "name": "DevFest XYZ Water Bottle",
+      "picture": "https://example.com/devfestxyzwaterbottle.jpg",
+      "desc": "Stay hydrated with the DevFest XYZ Water Bottle. Sleek design and tech-inspired graphics for on-the-go developers.",
+      "stock": 20,
+      "price": 40000
+    },
+    {
+      "id": 7,
+      "eventId": 3,
+      "name": "Hackathon Expo Cap",
+      "picture": "https://example.com/hackathonexpocap.jpg",
+      "desc": "Shield your eyes from coding glare with the Hackathon Expo Cap. Comfortable fit for intense coding sessions.",
+      "stock": 17,
+      "price": 25000
+    },
+    {
+      "id": 8,
+      "eventId": 3,
+      "name": "Hackathon Expo Backpack",
+      "picture": "https://example.com/hackathonexpobackpack.jpg",
+      "desc": "Carry your coding gear in style with the Hackathon Expo Backpack. Spacious and tech-friendly design for developers on the move.",
+      "stock": 16,
+      "price": 80000
+    },
+    {
+      "id": 9,
+      "eventId": 3,
+      "name": "Hackathon Expo Phone Stand",
+      "picture": "https://example.com/hackathonexpostand.jpg",
+      "desc": "Keep your phone at the perfect coding angle with the Hackathon Expo Phone Stand. Ideal for video calls and coding tutorials.",
+      "stock": 17,
+      "price": 15000
+    },
+    {
+      "id": 10,
+      "eventId": 4,
+      "name": "Web Summit Mousepad",
+      "picture": "https://example.com/websummitmousepad.jpg",
+      "desc": "Enhance your workspace with the Web Summit Mousepad. Smooth surface for precise coding maneuvers.",
+      "stock": 20,
+      "price": 35000
+    },
+    {
+      "id": 11,
+      "eventId": 4,
+      "name": "Web Summit Keychain",
+      "picture": "https://example.com/websummitkeychain.jpg",
+      "desc": "Carry a piece of Web Summit with you everywhere with the Web Summit Keychain. Durable and stylish.",
+      "stock": 20,
+      "price": 10000
+    },
+    {
+      "id": 12,
+      "eventId": 4,
+      "name": "Web Summit USB Drive",
+      "picture": "https://example.com/websummitusbdrive.jpg",
+      "desc": "Store your code securely with the Web Summit USB Drive. High capacity for all your coding projects.",
+      "stock": 20,
+      "price": 60000
+    },
+    {
+      "id": 13,
+      "eventId": 5,
+      "name": "AI Expo Poster",
+      "picture": "https://example.com/aiexpoposter.jpg",
+      "desc": "Decorate your workspace with the AI Expo Poster. Showcase the beauty of artificial intelligence in your coding haven.",
+      "stock": 20,
+      "price": 45000
+    },
+    {
+      "id": 14,
+      "eventId": 5,
+      "name": "AI Expo Laptop Sleeve",
+      "picture": "https://example.com/aiexpolaptopsleeve.jpg",
+      "desc": "Protect your laptop with the AI Expo Laptop Sleeve. Stylish and tech-inspired for the modern developer.",
+      "stock": 20,
+      "price": 70000
+    },
+    {
+      "id": 15,
+      "eventId": 5,
+      "name": "AI Expo Coffee Mug",
+      "picture": "https://example.com/aiexpocoffeemug.jpg",
+      "desc": "Sip your coding fuel from the AI Expo Coffee Mug. Elegant design for your AI-powered coding sessions.",
+      "stock": 20,
+      "price": 55000
+    },
+    {
+      "id": 16,
+      "eventId": 6,
+      "name": "Mobile App Summit T-Shirt",
+      "picture": "https://example.com/mobileappsummittshirt.jpg",
+      "desc": "Capture the essence of Mobile App Summit with our exclusive event-themed T-shirt. Comfortable and stylish for app developers.",
+      "stock": 20,
+      "price": 160000
+    },
+    {
+      "id": 17,
+      "eventId": 6,
+      "name": "Mobile App Summit PopSocket",
+      "picture": "https://example.com/mobileappsummitpopsocket.jpg",
+      "desc": "Enhance your mobile experience with the Mobile App Summit PopSocket. Secure grip and trendy design for your smartphone.",
+      "stock": 20,
+      "price": 18000
+    },
+    {
+      "id": 18,
+      "eventId": 7,
+      "name": "Blockchain Hackathon Tote Bag",
+      "picture": "https://example.com/blockchainhackathontotebag.jpg",
+      "desc": "Carry your blockchain essentials in the Blockchain Hackathon Tote Bag. Spacious and blockchain-themed for tech enthusiasts.",
+      "stock": 20,
+      "price": 75000
+    },
+    {
+      "id": 19,
+      "eventId": 7,
+      "name": "Blockchain Hackathon Poster",
+      "picture": "https://example.com/blockchainhackathonposter.jpg",
+      "desc": "Decorate your space with the Blockchain Hackathon Poster. Showcase the revolutionary potential of blockchain technology.",
+      "stock": 20,
+      "price": 50000
+    },
+    {
+      "id": 20,
+      "eventId": 8,
+      "name": "DevOps Conference T-Shirt",
+      "picture": "https://example.com/devopsconferencetshirt.jpg",
+      "desc": "Gear up for DevOps excellence with the DevOps Conference T-Shirt. Comfortable and perfect for DevOps enthusiasts.",
+      "stock": 20,
+      "price": 130000
+    },
+    {
+      "id": 21,
+      "eventId": 8,
+      "name": "DevOps Conference Laptop Sticker",
+      "picture": "https://example.com/devopsconferencelaptopsticker.jpg",
+      "desc": "Personalize your laptop with the DevOps Conference Laptop Sticker. Showcase your commitment to streamlined development.",
+      "stock": 20,
+      "price": 15000
+    },
+    {
+      "id": 22,
+      "eventId": 9,
+      "name": "Game Developers Expo Mousepad",
+      "picture": "https://example.com/gamedevelopersexpomousepad.jpg",
+      "desc": "Level up your workspace with the Game Developers Expo Mousepad. Precision and style for passionate game developers.",
+      "stock": 20,
+      "price": 40000
+    },
+    {
+      "id": 23,
+      "eventId": 9,
+      "name": "Game Developers Expo Poster",
+      "picture": "https://example.com/gamedevelopersexpoposter.jpg",
+      "desc": "Immerse yourself in the world of game development with the Game Developers Expo Poster. Capture the essence of gaming creativity.",
+      "stock": 20,
+      "price": 55000
+    },
+    {
+      "id": 24,
+      "eventId": 10,
+      "name": "Frontend Frameworks Summit T-Shirt",
+      "picture": "https://example.com/frontendframeworkssummittshirt.jpg",
+      "desc": "Stay on the cutting edge with the Frontend Frameworks Summit T-Shirt. Stylish and perfect for modern frontend developers.",
+      "stock": 19,
+      "price": 140000
+    },
+    {
+      "id": 25,
+      "eventId": 10,
+      "name": "Frontend Frameworks Summit Sticker Pack",
+      "picture": "https://example.com/frontendframeworkssummitstickerpack.jpg",
+      "desc": "Express your love for frontend development with the Frontend Frameworks Summit Sticker Pack. Unique designs for coding enthusiasts.",
+      "stock": 18,
+      "price": 25000
+    },
+    {
+      "id": 26,
+      "eventId": 11,
+      "name": "Cloud Computing Forum Cap",
+      "picture": "https://example.com/cloudcomputingforumcap.jpg",
+      "desc": "Shield yourself from the cloud with the Cloud Computing Forum Cap. Comfortable fit for cloud enthusiasts and developers.",
+      "stock": 20,
+      "price": 30000
+    },
+    {
+      "id": 27,
+      "eventId": 11,
+      "name": "Cloud Computing Forum Water Bottle",
+      "picture": "https://example.com/cloudcomputingforumwaterbottle.jpg",
+      "desc": "Stay hydrated in the cloud with the Cloud Computing Forum Water Bottle. Sleek design for tech-inspired refreshment.",
+      "stock": 20,
+      "price": 45000
+    },
+    {
+      "id": 28,
+      "eventId": 12,
+      "name": "Python Developers Retreat Hoodie",
+      "picture": "https://example.com/pythondevelopersretreathoodie.jpg",
+      "desc": "Stay cozy and code in style with the Python Developers Retreat Hoodie. Perfect for Python enthusiasts and developers.",
+      "stock": 20,
+      "price": 180000
+    },
+    {
+      "id": 29,
+      "eventId": 12,
+      "name": "Python Developers Retreat Mug",
+      "picture": "https://example.com/pythondevelopersretreatmug.jpg",
+      "desc": "Sip your Python-powered brew from the Python Developers Retreat Mug. A must-have for Python coding sessions.",
+      "stock": 20,
+      "price": 60000
+    },
+    {
+      "id": 30,
+      "eventId": 13,
+      "name": "UX/UI Design Workshop Sketchbook",
+      "picture": "https://example.com/uxuidesignworkshopsketchbook.jpg",
+      "desc": "Unleash your creativity with the UX/UI Design Workshop Sketchbook. Quality paper for designing delightful user interfaces.",
+      "stock": 20,
+      "price": 50000
+    },
+    {
+      "id": 31,
+      "eventId": 13,
+      "name": "UX/UI Design Workshop Tote Bag",
+      "picture": "https://example.com/uxuidesignworkshoptotebag.jpg",
+      "desc": "Carry your design essentials in the UX/UI Design Workshop Tote Bag. Stylish and perfect for UX/UI enthusiasts.",
+      "stock": 20,
+      "price": 65000
+    },
+    {
+      "id": 32,
+      "eventId": 14,
+      "name": "Tech Innovation Summit Poster",
+      "picture": "https://example.com/techinnovationsummitposter.jpg",
+      "desc": "Transform your space with the Tech Innovation Summit Poster. Showcase the future of technology and innovation.",
+      "stock": 20,
+      "price": 40000
+    },
+    {
+      "id": 33,
+      "eventId": 14,
+      "name": "Tech Innovation Summit Laptop Sleeve",
+      "picture": "https://example.com/techinnovationsummitlaptopsleeve.jpg",
+      "desc": "Protect your laptop with the Tech Innovation Summit Laptop Sleeve. Sleek and tech-inspired for the modern innovator.",
+      "stock": 20,
+      "price": 75000
+    },
+    {
+      "eventId": 15,
+      "stock": 13,
+      "desc": "Google Exclusive Watch",
+      "name": "Google Hackaton Watch",
+      "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702956733/codergather/d9deog5z9ebdkidwo6zm.jpg",
+      "price": 30000,
+      "id": 34
+    }
   ],
-  "profile": { "name": "typicode" }
+  "topup": [
+    {
+      "id": 1,
+      "userId": 2,
+      "amount": 1000
+    }
+  ],
+  "balances": [
+    {
+      "id": 1,
+      "userId": 1,
+      "amount": 1000
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "amount": 4823500
+    }
+  ],
+  "users": [
+    {
+      "id": "0",
+      "email": "admin@gmail.com",
+      "name": "Admin",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": 1,
+      "email": "wasik@mail.com",
+      "name": "lalala",
+      "password": "1234",
+      "role": "user",
+      "membership": 1,
+      "picture": 0
+    },
+    {
+      "id": 2,
+      "name": "wasik amin",
+      "email": "wasikamin4@gmail.com",
+      "membership": 2,
+      "role": "user",
+      "password": "123456"
+    },
+    {
+      "name": "Wasik Amin",
+      "email": "wasikamin2@gmail.com",
+      "membership": 1,
+      "role": "user",
+      "password": "123456",
+      "id": 3
+    }
+  ],
+  "purchases": [
+    {
+      "eventId": 1,
+      "userId": 2,
+      "purchaseDate": "2023-12-12T10:03:05.275Z",
+      "merch": [
+        {
+          "id": 1,
+          "eventId": 1,
+          "name": "CodeCamp T-Shirt",
+          "picture": "https://example.com/codecamptshirt.jpg",
+          "desc": "Commemorate your experience at CodeCamp with our exclusive event-themed T-shirt. High-quality fabric and stylish design.",
+          "price": 150000,
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "eventId": 1,
+          "name": "CodeCamp Sticker Pack",
+          "picture": "https://example.com/codecampstickers.jpg",
+          "desc": "Decorate your laptop or workspace with our CodeCamp sticker pack. Unique designs representing coding excellence.",
+          "price": 20000,
+          "quantity": 2
+        }
+      ],
+      "isPaid": true,
+      "paymentTotal": 890000,
+      "id": 1
+    },
+    {
+      "eventId": 1,
+      "userId": 1,
+      "purchaseDate": "2023-12-12T10:03:05.275Z",
+      "merch": [],
+      "isPaid": false,
+      "paymentTotal": 22700,
+      "id": 2
+    },
+    {
+      "eventId": 2,
+      "isPaid": true,
+      "merch": [
+        {
+          "id": 4,
+          "eventId": 2,
+          "name": "DevFest XYZ Hoodie",
+          "picture": "https://example.com/devfestxyzhoodie.jpg",
+          "desc": "Stay warm and stylish with the DevFest XYZ Hoodie. Perfect for chilly coding nights and tech gatherings.",
+          "price": 200000,
+          "quantity": 1
+        }
+      ],
+      "purchaseDate": "2023-12-12T10:03:05.275Z",
+      "paymentTotal": 646000,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "eventId": 3,
+      "isPaid": true,
+      "merch": [
+        {
+          "id": 7,
+          "eventId": 3,
+          "name": "Hackathon Expo Cap",
+          "picture": "https://example.com/hackathonexpocap.jpg",
+          "desc": "Shield your eyes from coding glare with the Hackathon Expo Cap. Comfortable fit for intense coding sessions.",
+          "stock": 20,
+          "price": 25000,
+          "quantity": 3
+        },
+        {
+          "id": 8,
+          "eventId": 3,
+          "name": "Hackathon Expo Backpack",
+          "picture": "https://example.com/hackathonexpobackpack.jpg",
+          "desc": "Carry your coding gear in style with the Hackathon Expo Backpack. Spacious and tech-friendly design for developers on the move.",
+          "stock": 20,
+          "price": 80000,
+          "quantity": 4
+        },
+        {
+          "id": 9,
+          "eventId": 3,
+          "name": "Hackathon Expo Phone Stand",
+          "picture": "https://example.com/hackathonexpostand.jpg",
+          "desc": "Keep your phone at the perfect coding angle with the Hackathon Expo Phone Stand. Ideal for video calls and coding tutorials.",
+          "stock": 20,
+          "price": 15000,
+          "quantity": 3
+        }
+      ],
+      "purchaseDate": "2023-12-12T11:41:22.755Z",
+      "paymentTotal": 1088000,
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "eventId": 10,
+      "isPaid": true,
+      "merch": [
+        {
+          "id": 24,
+          "eventId": 10,
+          "name": "Frontend Frameworks Summit T-Shirt",
+          "picture": "https://example.com/frontendframeworkssummittshirt.jpg",
+          "desc": "Stay on the cutting edge with the Frontend Frameworks Summit T-Shirt. Stylish and perfect for modern frontend developers.",
+          "price": 140000,
+          "quantity": 1
+        },
+        {
+          "id": 25,
+          "eventId": 10,
+          "name": "Frontend Frameworks Summit Sticker Pack",
+          "picture": "https://example.com/frontendframeworkssummitstickerpack.jpg",
+          "desc": "Express your love for frontend development with the Frontend Frameworks Summit Sticker Pack. Unique designs for coding enthusiasts.",
+          "price": 25000,
+          "quantity": 2
+        }
+      ],
+      "purchaseDate": "2023-12-13T11:51:00.842Z",
+      "paymentTotal": 926500,
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "eventId": 13,
+      "isPaid": true,
+      "merch": [
+        {
+          "id": 30,
+          "eventId": 13,
+          "name": "UX/UI Design Workshop Sketchbook",
+          "picture": "https://example.com/uxuidesignworkshopsketchbook.jpg",
+          "desc": "Unleash your creativity with the UX/UI Design Workshop Sketchbook. Quality paper for designing delightful user interfaces.",
+          "price": 50000,
+          "quantity": 2
+        },
+        {
+          "id": 31,
+          "eventId": 13,
+          "name": "UX/UI Design Workshop Tote Bag",
+          "picture": "https://example.com/uxuidesignworkshoptotebag.jpg",
+          "desc": "Carry your design essentials in the UX/UI Design Workshop Tote Bag. Stylish and perfect for UX/UI enthusiasts.",
+          "price": 65000,
+          "quantity": 2
+        }
+      ],
+      "purchaseDate": "2023-12-13T12:13:28.057Z",
+      "paymentTotal": 800000,
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "eventId": 14,
+      "isPaid": true,
+      "merch": [
+        {
+          "id": 32,
+          "eventId": 14,
+          "name": "Tech Innovation Summit Poster",
+          "picture": "https://example.com/techinnovationsummitposter.jpg",
+          "desc": "Transform your space with the Tech Innovation Summit Poster. Showcase the future of technology and innovation.",
+          "price": 40000,
+          "quantity": 3
+        },
+        {
+          "id": 33,
+          "eventId": 14,
+          "name": "Tech Innovation Summit Laptop Sleeve",
+          "picture": "https://example.com/techinnovationsummitlaptopsleeve.jpg",
+          "desc": "Protect your laptop with the Tech Innovation Summit Laptop Sleeve. Sleek and tech-inspired for the modern innovator.",
+          "price": 75000,
+          "quantity": 1
+        }
+      ],
+      "purchaseDate": "2023-12-15T03:01:25.087Z",
+      "paymentTotal": 996000,
+      "userId": 2,
+      "id": 7
+    },
+    {
+      "eventId": 12,
+      "isPaid": true,
+      "merch": [
+        {
+          "id": 28,
+          "eventId": 12,
+          "name": "Python Developers Retreat Hoodie",
+          "picture": "https://example.com/pythondevelopersretreathoodie.jpg",
+          "desc": "Stay cozy and code in style with the Python Developers Retreat Hoodie. Perfect for Python enthusiasts and developers.",
+          "price": 180000,
+          "quantity": 1
+        }
+      ],
+      "purchaseDate": "2023-12-15T07:29:59.895Z",
+      "paymentTotal": 748000,
+      "userId": 2,
+      "id": 8
+    },
+    {
+      "eventId": 15,
+      "isPaid": true,
+      "merch": [
+        {
+          "eventId": 15,
+          "stock": 5,
+          "desc": "Google Exclusive Watch",
+          "name": "Google Hackaton Watch",
+          "picture": "https://res.cloudinary.com/dso85dyyn/image/upload/v1702956733/codergather/d9deog5z9ebdkidwo6zm.jpg",
+          "price": 30000,
+          "id": 34,
+          "quantity": 7
+        }
+      ],
+      "purchaseDate": "2023-12-19T03:34:42.763Z",
+      "paymentTotal": 221000,
+      "userId": 2,
+      "id": 9
+    },
+    {
+      "eventId": 16,
+      "isPaid": false,
+      "merch": [],
+      "purchaseDate": "2023-12-19T08:47:03.120Z",
+      "paymentTotal": 100000,
+      "userId": 2,
+      "id": 10
+    },
+    {
+      "eventId": 4,
+      "isPaid": false,
+      "merch": [],
+      "purchaseDate": "2023-12-20T06:37:48.410Z",
+      "paymentTotal": 1400000,
+      "userId": 2,
+      "id": 11
+    }
+  ],
+  "bookmarks": [
+    {
+      "userId": 2,
+      "eventId": 1,
+      "id": 18
+    },
+    {
+      "userId": 2,
+      "eventId": 13,
+      "id": 19
+    },
+    {
+      "userId": 2,
+      "eventId": 12,
+      "id": 21
+    }
+  ]
 }
